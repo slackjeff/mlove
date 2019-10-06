@@ -1,0 +1,196 @@
+###########################
+# Lista de frases amorosas
+###########################
+
+msg=(
+	'Nosso amor é aquele sentimento forte, único e verdadeiro, que mesmo com o 
+   passar do tempo e com a distância que existe entre nós, jamais se desgastará, 
+   pois pertencemos um ao outro, juntos em um só coração. Te amo.'
+	'O casal perfeito não é aquele que nunca tem problemas, mas sim aquele que 
+   apesar dos obstáculos sempre permanece junto.'
+	'Sabe quando você quer que um momento dure para sempre? Então, é assim quando estou com você.'
+	'Eu te amo. E nunca me imaginaria amando alguém com tanta intensidade, nem sabia que tinha tanta capacidade pra amar assim. Mas isso tudo por sua culpa. Ninguém além de você, saberia despertar isso em mim.'
+	'Você é o maior presente que Deus poderia me dar. Te amo hoje e sempre!'
+	'Não existe um dia se quer em que eu não acorde pensando em você. E quer saber? Não há pensamento melhor, se não pensar em você.'
+	'Que não falte bons sentimentos. Que nos falte egoísmo. Que nos sobre paciência. Que não nos falte esperança. Que cada caminho escolhido nos reserve boas surpresas. Que cada um de nós saiba ouvir cada conselho dado por uma pessoa mais velha. Que não nos falte vontade de sorrir. Que nenhum de nós se esqueça da força que possui. Que não falte fé e amor.'
+	'Um dia me perguntaram O que você viu nela? e eu respondi O que faltava em mim!.'
+	'Não importa se serão momentos bons ou ruins, mas se forem ao seu lado, cada segundo valerá a pena.'
+	'Não dá para negar, é você, tem sido você e vai continuar sendo você... Minha escolha, minha certeza, meu amor.'
+	'Um dia me disseram que o sorriso é uma forma de mostrarmos o quanto gostamos de alguém. Hoje me perguntaram se eu gostava de você eu apenas... sorri.'
+	'Eu amo estar com você, eu amo ficar com você, seu cheirinho me faz viajar, sua voz me faz suspirar.'
+	'O melhor sentimento do mundo é ver alguém sorrir e saber que você é o motivo.'
+	'Posso estar no pior dia da minha vida, mesmo assim vou fazer de tudo para ver você sorrir.'
+	'Aprendi que o amor é feito de liberdade. É como ter todos os dias outras opções, e ainda assim fazer a mesma escolha.'
+	'Tem amor que parece que nasceu pra durar uma vida inteira, tipo o meu por você.'
+	'Não ligue para o que os outros pensam. Nosso amor é mais forte que a opinião deles.'
+	'O mundo tem 3 oceanos, 7 mares, 5 continentes, 510 milhões de km² de terra e ainda assim, consegui achar alguém tão especial como você!'
+	'Nos teus lábios conheci as mais lindas palavras, que sempre desejava ouvir. Do teu coração conheci as maiores chamas, com as quais sempre sonhava aquecer-me. Que o nosso namoro seja eterno. Te amo!'
+	'E agora eu sei, o quanto conhecer você foi bom para mim. Te amo!'
+	'Me faz um favor? Cuida bem do meu coração, pois ele pertence a você.'
+	'Eu nunca me cansarei de dizer que é você quem eu amo, é você quem eu quero e é o seu lado que eu quero acordar todos os dias.'
+	'Uma boa relação é quando alguém aceita seu passado, apoia seu presente e motiva seu futuro.'
+	'Não sei se o mundo é bom, mas ele ficou muito melhor quando você chegou.'
+	'Avião sem asa, fogueira sem brasa, sou eu assim sem você. Futebol sem bola, Piu-piu sem Frajola, sou eu assim sem você.'
+	'O tempo passa e o meu amor por você só aumenta a cada dia.'
+	'Os pequenos instantes que passo ao seu lado são os mais grandes e belos momentos em minha vida!'
+	'Não importa a cor do céu, quem faz os meus dias mais bonitos é você. Te amo.'
+	'Tem tanta coisa que eu quero viver com você...'
+	'O pacto que todo casal deveria fazer: Quando eu achar que o amor está acabando, prometo me lembrar dos motivos que me fizeram te amar um dia.'
+	'A vida é cheia de escolhas, numa delas escolhi você.'
+	'Eu poderia amar qualquer outra pessoa, uma pessoa menos complicada, menos indecisa, e que estivesse disposta a estar comigo toda hora. Mas meu coração te escolheu, e por alguma razão, ele não abre mão de você.'
+	'Se eu pudesse escolher de novo, eu escolheria novamente você.'
+	'Eu tô apaixonado, eu tô contando tudo e não tô nem ligando pro que vão dizer. Amar não é pecado e se eu tiver errado que se dane o mundo eu só quero você.'
+	'Ao seu lado descobri que entre o sonho e a realidade, existe um espaço chamado felicidade, e para que a minha felicidade se torne realidade, preciso estar ao seu lado.'
+	'Posso passar muitos dias sem te ver, muitos dias sem te abraçar, mas isso nunca me fará parar de te amar.'
+	'E cada vez mais eu tenho certeza que a pessoa certa é você.'
+	'Amor igual ao teu eu nunca mais terei. Amor que eu nunca vi igual, que eu nunca mais verei. Amor que não se pede, amor que não se mede, que não se repete.'
+	'Se eu pudesse ter apenas um desejo, eu desejaria ter você ao meu lado.'
+	'Amor é quando você se apaixona pela mesma pessoa todos os dias como se fosse a primeira vez.'
+	'Quando Deus fez o mundo, espalhou por ele pessoas maravilhosas, e nos deu a missão de encontrá-las. Cumpri a minha, te encontrei.'
+	'Todos vivem por uma razão, a minha é você.'
+	'O homem de verdade não é aquele que conquista várias mulheres, mas sim aquele tem o amor bastante, para conquistar a mesma, todos os dias. (PS, ESTOU TENTANDO FAZER O MEU MELHOR.)'
+	'O sorriso é meu, mas o motivo é você.'
+	'Com você, o meu mundo é melhor.'
+	'Hoje eu preciso ouvir qualquer palavra tua, qualquer frase exagerada que me faça sentir alegria em estar vivo.'
+	'Dormir é bom, mas poderia ser melhor se fosse agarradinho com você.'
+	'Que tudo na sua vida brilhe como seus olhos, seja maravilhoso como seu coração, e linda como você.'
+	'Que as declarações sejam diárias e o amor seja constante!'
+	'Não quero apenas te ver bem, eu quero ser a pessoa que vai te deixar bem.'
+	'Mesmo depois de conhecer vários novos sorrisos, o seu continua sendo o meu preferido.'
+	'Por você, eu dançaria tango no teto, eu limparia os trilhos do metrô, eu iria a pé do Rio a Salvador.'
+	'Não escolha a pessoa mais bonita do mundo. Escolha a pessoa que faz do seu mundo, o mais bonito.'
+	'Falar com você por 5 minutos me faz sorrir por 24 horas.'
+	'Deus plantou e escolheu a mais bela flor de seu jardim e me deu, e essa flor é você.'
+	'Eu gosto de você. Aliás, eu gosto de tudo que me tira um sorriso espontâneo sem precisar de esforço para isso.'
+	'De tudo o que mais preciso, você é o que mais necessito ter!'
+	'Não tenho todas as respostas, mas uma coisa que eu sei é que para onde você estiver indo é para onde eu quero ir.'
+	'Quando eu estou em seus braços tudo parece tão certo. Eu sei que é onde eu deveria estar.'
+	'Percebi que era amor a partir do momento que eu não conseguia mais descrever, a partir do momento em que a única coisa que eu conseguia fazer era sentir.'
+	'Às vezes tudo o que a gente precisa é um chá, um cafuné e um abraço apertado.'
+	'Por trás de grandes namorados existem dois grandes amigos.'
+	'Ao seu lado não importa o que aconteça conseguirei achar motivos para me sentir feliz.'
+	'Uma pessoa me perguntou o que eu vi em você para me fazer te amar tanto. Minha única resposta foi: tudo!'
+	'Te amo minha morena, você é tudo que eu sempre desejei...'
+	'Não quero a garota mais linda do mundo, quero a garota que faça do meu mundo o mais bonito.'
+	'Você é meu anjo. Só que sem asas.'
+	'Que vontade de te dar um beijo. Tomara que você já tenha aprendido a ler pensamentos.'
+	'O Dia dos Namorados para mim é todo dia. Não tenho dias marcados para te amar noite e dia.'
+	'Há pessoas que nos falam e nem as escutamos, há pessoas que nos ferem e nem cicatrizes deixam, mas há pessoas que simplesmente aparecem em nossas vidas e nos marcam para sempre.'
+	'Vivo tentando encontrar palavras pra te descrever, mas nada chega tão perto, e o que mais se aproxima é: perfeição.'
+	'Morena, você tem o sorriso mais lindo que eu já vi, isso é um dos motivos que me fazem me apaixonar por você todos os dias.'
+	'Eu não quero poucas. Eu não quero muitas. Eu quero uma. Eu quero você.'
+	'Tem gente que me irrita fácil, tem gente que me faz bem fácil, e tem você, que faz os dois.'
+	'Faria e faço de tudo pra te ver feliz.'
+	'O amor se torna favorável pelo carinho, não pela autoridade.'
+	'Lindo é quando você olha para pessoa que ama e ela sorri para você.'
+	'De todas as coisas que eu preciso, você é a mais importante.'
+	'Se o seu amor sente ciúmes, agradeça a ele, pois isso é sinal que ele gosta de você!'
+	'Eu gosto dela e ela gosta de mim, o destino quis assim: início, meio, sem fim.'
+	'Eu amo quando você sorri, mas eu amo ainda mais quando eu sou o motivo.'
+	'Meu ponto fraco é você!'
+	'Pra você guardei o amor que aprendi vendo os meus pais, o amor que tive e hoje posso dar livre e feliz.'
+	'Quando eu te encontro dá uma vontade de ficar mais um pouco, de não ir embora, de morar com você. Quando eu te encontro eu fico bem.'
+	'Você não pode estar em meu pensamento a cada instante, mas em meu coração estará para sempre.'
+	'O amor se renova e fortalece no namoro do dia-a-dia.'
+	'Eu estou sorrindo agora, e você é o motivo, não só do meu sorriso, mas também da minha felicidade.'
+	'Na escola aprendi gramática, mas foi contigo que aprendi o verbo amar.'
+	'Amar é a sabedoria dos loucos e a loucura dos sábios!'
+	'Namorar é fazer pactos com a felicidade ainda que rápida, escondida, fugida ou impossível de durar.'
+	'É preciso ter um olho aberto para encontrar o amor verdadeiro, mas ter os dois fechados para mantê-lo.'
+	'Amor não é nada mais que a descoberta de nós mesmos nos outros, e o prazer deste reconhecimento.'
+	'Se eu mergulhasse na profundidade de seus olhos, com certeza encontraria ali, a essência da vida.'
+	'O que é o amor? Amor é quando uma pessoa conhece todos seus segredos... Seu mais profundo, escuro e terrível segredo, que ninguém mais no mundo conhece e, ainda no fim, aquela pessoa não gosta menos de você... Até mesmo se o resto do mundo o faz.'
+	'No homem, o desejo gera o amor. Na mulher, o amor gera o desejo.'
+	'Às vezes paro, penso, analiso o mundo, e chego a conclusão de que ainda se tem razão pra eu viver: você.'
+	'Paz é o amor humanizado, amor é a paz dos namorados, sinta num aperto de um abraço! Ame! E terás a paz ao teu lado.'
+	'Um coração que ama é o princípio de todo o conhecimento.'
+	'Não se ama a uma mulher porque seja bela. É bela porque se ama.'
+	'A diferença entre namoro e casamento é a diferença entre as imagens de um catálogo de sementes e o que nasce depois de plantado.'
+	'Um relacionamento feliz é uma conversa longa que parece sempre curta demais.'
+	'A maior felicidade é a certeza de sermos amados apesar de ser como somos.'
+	'O amor é a chave para se abrir diversas portas... Inclusive a da tão almejada felicidade!'
+	'A suprema felicidade da vida é a convicção de ser amado por aquilo que você é, ou melhor, apesar daquilo que você é.'
+	'Ser profundamente amado por alguém nos dá força. Amar alguém profundamente nos dá coragem!'
+	'Quem não tem namorado é alguém que tirou férias não remuneradas de si mesmo. Namorado é a mais difícil das conquistas. Difícil porque namorado de verdade é muito raro. Necessita de adivinhação, de pele, saliva, lágrima, nuvem, quindim, brisa ou filosofia.'
+	'O que é a perfeição senão a junção de dois seres que se amam.'
+	'E tem uma parte de mim que não sou eu. É um resto de você.'
+	'Você não tem a menor noção do seu efeito sobre mim.'
+	'Nunca deixe de ter um sorriso em seu rosto, pois eu preciso dele.'
+	'Então, naquele dia que você me olhou. Me balançou por dentro, me virou o mundo! Percebi, tinha que ser você.'
+	'No homem há mais amor-próprio do que amor; na mulher, pelo contrário, há mais amor do que amor-próprio.'
+	'Na vida há coisas simples e importantes... Simples como eu e importantes como você.'
+	'Me conquistar é complicado, me ter é destino, me amar é inevitável, me perder é um risco, me esquecer... Tenta que eu quero ver.'
+	'Te envolver nos meus braços e no meu abraço. Não sei se você acredita em anjo, mas eu acho que eu sou o seu.'
+	'E não existe um só dia que eu não pense em você.'
+	'Fale comigo sempre que você estiver triste, mesmo que eu não consiga lhe trazer a felicidade, eu lhe darei muito amor.'
+	'Se um dia me perguntarem o por que de tudo isso, eu direi que foi uma loucura de um curto momento e que deu certo.'
+	'Te ter é mais que um sonho bom, é desejar encontrar o que todos mais procuram nesse mundo, a felicidade.'
+	'O espaço é infinito, mas não é maior que nosso sentimento, pois nós dois juntos somos o amor.'
+	'O seu sorriso vale mais que um diamante se você vier comigo nós vamos adiante, com a cabeça erguida e mantendo a fé em deus o <u>seu dia mais feliz vai ser o mesmo que o meu</u>.'
+	'Trato feito: eu cuido de você, você cuida de mim e Deus cuida de nós.'
+	'Wi-Fi desligado, você do meu lado, coração conectado, futuro traçado.'
+	'Eu quero te provar todos os dias que você é a melhor coisa que já me aconteceu. Olha que já me aconteceram muitas coisas boas.'
+	'Se eu fosse o sol e você a lua, o mundo viveria em um eclipse só pra gente se encontrar.'
+	'Em minha oração diária, eu peço a Deus você como meu destino. Oro baixinho: quero tanto te cuidar.'
+	'Eu quero ter você para mim, só para mim, todos os dias o dia todo. Quero você perto de mim a todo instante, apertar você no meu abraço para nunca mais largar.<br>
+	Quero ser feliz lutando todos os dias pela sua felicidade. Quero ser o seu melhor sorriso e que as suas únicas lágrimas sejam de alegria. Quero dormir e acordar ao seu lado, fazer planos e realizar sonhos com você.<br>
+	Eu quero amar você, hoje, amanhã e para sempre, pois mesmo que tudo deixe de existir, meu amor por você nunca desaparecerá!'
+	'Quando eu mais precisava de alguém, você surgiu. Não nos conhecíamos, não sabíamos da existência um do outro e mesmo assim, quando nossos olhos se cruzaram nossos corações foram invadidos pela a afinidade, pela atração física, pelo carinho.<br>
+	Senti que naquele momento que minha busca pela felicidade havia terminado, enfim te encontrei. Hoje me vejo vivendo um momento realmente especial, descobrindo que amar vale a pena, e que a vida pode ser verdadeiramente feliz.<br>
+	Quero viver este sentimento bonito, e ter a certeza que fomos feitos um para o outro. Porque de tudo que descobri ao seu lado, o que me deixa mais feliz e completa é o fato de poder compartilhar com você parte do que sou e tudo que sinto.<br>
+	Estamos procurando juntos um caminho, para seguir e podemos acreditar que tudo será maravilhoso, mas uma coisa você pode ter sempre certeza, qualquer que seja a situação, em todos os momentos estarei sempre ao seu lado. Sabe por quê???<br>
+	Porque te amo muito...'
+	'Antes de conhecer você
+	Eu não sabia o que era rir à toa
+	Eu desconhecia o amor à primeira vista,
+	Pensava que era coisa de novela.<br>
+	Também não sabia que a saudade
+	Roubaria minhas noites de sono.<br>
+	Antes de conhecer você
+	Eu não sabia o que era o amor.<br>
+	Mas hoje eu amo tanto você
+	Que acho que uma vida só
+	Não é suficiente para esse amor
+	Que pulsa em meu peito.<br>
+	Tenho medo que uma separação
+	Me tire o prazer de viver
+	Sem você, sem seus beijos,
+	Seus abraços, seu amor,
+	Mas acho que o amor é isso,
+	É ter medo de perder!<br>
+	Você entrou na minha vida
+	E a roubou para você
+	Estou em suas mãos
+	E em seus braços. Somos um só,
+	E eu que não sabia o que era
+	Ser um só até o dia em que
+	Me perdi em você.<br>
+	Eu te amo cada dia mais!
+	Eu te amo mais do que tudo!<br>
+	Não me deixe nunca,
+	Me ame sempre!<br>
+	Eu desejo de todo coração
+	Que sejamos para sempre
+	Um só coração, uma só alma.<br>
+	Eu te amo!'
+	'Uma confissão: Eu te amo<br>
+	Um desejo: Estar com você<br>
+	Um voto: Sua felicidade<br>
+	Um sonho: Ter você eternamente<br>
+	Uma emoção: Nosso primeiro beijo<br>
+	Um objetivo: Uma vida a dois<br>
+	Um pedido: Por favor me ame<br>
+	Um lembrete: Amarei você sempre<br>
+	Tudo isso porque: Te amo demais!'
+	'Se você quer saber o quanto eu te amo é simples. Multiplique as estrelas do céu pelas gotas dos oceanos.'
+	'Tentei escrever muitas coisas, mas acabei descobrindo que amar é melhor sentir do que dizer, e que milhões de frases bonitas jamais alcançariam a grandeza do que sinto por você. Resumindo... te amo.'
+	'Te amo, não somente pelo que és, mas pelo que sou quando estou contigo! Te amo, porque puseste a mão na minha alma e passaste por debaixo das minhas fraquezas e com teu amor fizeste sair à luz toda a beleza que ninguém antes de ti conseguiu encontrar.'
+	'Nem a maior das distâncias percorrida é capaz de diminuir o amor que você originou na minha vida.'
+	'Por que não dizer que te amo, se isso também é uma forma de amar; pode parecer estranho, mas a palavra amar não é apenas de um homem para com uma mulher ou vice versa; pode ser um grande amigo, um pai ou uma mãe, o que importa é o carinho e a ternura que você tem com essa pessoa, lembre-se! Quem ama perdoa e sabe compreender as imperfeições das outras pessoas.'
+	'Você é a escolha acertada, a razão da minha vida e o conforto dos meus dias. Te amo, meu bem!'
+	'Você nunca sabe quanto tempo você tem com alguém, então não esqueça de dizer eu te amo enquanto você pode.'
+	'Quando eu falo “te amo!” eu falo verdade e quando eu sinto seu amor eu conheço o sentido da vida.'
+	'A luz dos seus olhos ilumina meu coração de um jeito mágico e deslumbrante. Te amo, meu bem!'
+	'Vou amar você sem qualquer medo para juntos construirmos algo belo, único e para toda vida. Te amo!'
+	'Sem você minha vida seria um mar de nada e um show de silêncio. Eu te amo, minha querida esposa!'
+)

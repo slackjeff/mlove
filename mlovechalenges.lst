@@ -1,0 +1,32 @@
+###############################
+# Lista de desafios do dia dia
+###############################
+
+msg_chalenges=(
+	'Diga <b>eu te amo</b> ao menos <u>5</u> vezes no dia de hoje.<br>Pode ser por mensagem de texto, facebook, whatsapp, pessoalmente etc...'
+	'Se eu estiver do seu ladinho, me acorde com um beijo <b>mas de verdade</b>.'
+	'Nós dois devemos publicar algo em alguma rede social fazendo uma pequena declaração.'
+	'Quando acordado, olhe nos fundos dos meus olhos e não diga nada.'
+	'Você ganhou um jantar feito por mim, me cobre hoje.'
+	'Você ganhou um almoço feito por mim, me cobre hoje'
+	'Me acorde e peça um beijo bem gostoso.'
+	'Assistir um filmezinho da sua escolha, <b>mas com pipoca</b>. :)'
+	'Vale um chocolate/bolo.'
+	'Você ganhou uma massagem nos pés.'
+	'Você ganhou uma massagem nas costas.'
+	'Você ganhou uma massagem no corpo inteiro.'
+	'Eu ganhei uma massagem nos pés.'
+	'Eu ganhei uma massagem nas costas.'
+	'Eu ganhei uma massagem no corpo inteiro.'
+	'Me dê o abraço mais forte que você conseguir!'
+	'Cante uma música para mim.'
+	'Eu canto uma música para você!'
+	'Peça para namorar comigo.'
+	'Me liga para dizer que me ama'
+	'Feche os olhos e pense em um dos nosso beijos :*'
+	'Escreva uma msg carinhosa no meu Facebook'
+	'O que te deixa com ciúmes?'
+	'Faça um pedido p/ para o Jeffe atender!'
+	'Trace uma meta para cumprirmos juntos em 2019'
+	'Mande uma mensagem em qualquer rede social dizendo algo que você está pensando sobre nós.'
+)
